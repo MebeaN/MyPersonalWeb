@@ -9,8 +9,8 @@
 <body>
     <table>
         <tr>
-            <td><img src="./images/blank.PNG" alt="white" width="400"></td>
-            <td>
+            <td><img src="./images/blank.PNG" alt="white" width="30%"></td>
+            <td width="30%">
                 <table cellpadding="10">
                     <tr>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -21,37 +21,56 @@
                         <td><a href="Favorite.html">Favorite</a></td>                    
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
                     </tr>
+                    
                 </table>
                 <hr>
                 <h1>If you want to contact me.</h1>
-                <p>
-                    <table cellspacing="15">
+                
+                    <form action="mailto:se.mebea.nibret@gmail.com" method="POST">
+                    <table>
                         <tr>
-                            <td>
-                                <h3>
-                                You can contact me via different ways.
-                                <br>
-                                <br>
-                                <br>
-                                <ul>
-                                    <img src="./images/EmailIcon.jpg" alt="emailicon" width="10%"><a href="www.gmail.com/se.mebea.nibret@gmail.com" title="My gmail">   se.mebea.nibret@gmail.com</a><br>
-                                    <img src="./images/TelIcon.jpg" alt="telIcon" width="10%"> +251909529038
-                                </ul>
-                                
-
+                            <td><label for="fn">First Name</label></td>
+                            <td><input type="text" id="fn" pattern="[A-Z a-z]{5,}" required title="Your first name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="ln">Last Name</label></td>
+                            <td><input type="text" id="ln" pattern="[A-Za-z]{5,}" required title="Your last name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="email" id="email" required title="EMAIL please"></td>
                             
                         </tr>
+                        <tr>
+                            <td><label for="tel">Tel Number</label></td>
+                            <td><input type="tel"  id="tel" required pattern="[+]{1}[0-9]{12}" title="Must have + at first and 12 numbers(0-9)"></td>
+                        </tr>
+                        <tr>
+                            <td><button>Submit</button></td>
+                        </tr>
+                        
+                    
 
 
                     </table>
+                    </form>
+                    <p>
+                        Here is my email:
+                    </p>
+                    <img src="./images/EmailIcon.jpg" width="100px" height="100px">
+                    <a href="se.mebea.nibret@gmail.com">se.mebea.nibret@gmail.com</a>
                     
-                </p>
+                        
+                        
+                    
+                    
+                
                 
                 <hr>
                 <footer>&copy Mebea Nibret,2020 | Thank you for everything.</footer>
             </td>
             <td>
-                <img src="./images/blank.PNG" width="400">
+                <img src="./images/blank.PNG" width="30%">
             </td>
         </tr>
     </table>
