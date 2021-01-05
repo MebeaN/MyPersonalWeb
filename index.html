@@ -5,80 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mebea</title>
     <link rel="icon" href="./images/PP.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <table>
-        <tr>
-            <td><img src="./images/blank.PNG" alt="white" width="30%"></td>
-            <td width="30%">
-                <table cellpadding="10">
-                    <tr>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                        <td><a href="index.html">Home</a></td>
-                        <td><a href="About.html">About</a></td>
-                        <td><a href="Family.html">Family</a></td>    
-                        <td><a href="Contact.html">Contact</a></td>   
-                        <td><a href="Favorite.html">Favorite</a></td>                                        
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    </tr>
-                </table>
-                
-                
-                
-                <hr>
-                <h1>I'm Mebea Nibret</h1>
-                <p>
-                    <table>
-                        <tr>
-                            <td>
-                                <h3>
-                                Hello everyone, I'm Mebea Nibret AAiT second year Software Engineering student.
-                                 
-                                </h3>
-                                
-                            </td>
-                            <td>
-                                <img src="./images/Mebea.jpg" alt="It is me." width="100%" height="50%">
-                            </td>
+    <br>
+    <div class="row">
+        <div class="col-sm-3">
 
-                        </tr>
-                        <tr>
-                            <td><h3>
-                                If you to mail me here is a form 
-                                </h3>
-                            </tr>
+        </div>
 
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-3">
 
-                    </table>
-                    
-                </p>
-                <form action="mailto:se.mebea.nibret@gmail.com" enctype="UTF-8" method="POST">
-                    <table>
-                        <tr>
-                            <label for="messageta">Your Message</label>
-                            <td>
-                                <textarea name="message" id="messageta" cols="30" rows="10" required></textarea>
-                            </td>
-                        </tr>
-                        <tr>
-                
-                            <td>
-                                <input type="email" name="email" size="50" required title="Email please.">
-                            </td>
-                            <td>
-                                <td><input type="Submit" value="          Mail         "></td></td>
-                            </td>
-                        </tr>
-                    </table>
-                </form>
-                <hr>
-                <footer>&copy Mebea Nibret,2020 | Thank you for everything.</footer>
-            </td>
-            <td>
-                <img src="./images/blank.PNG" alt="" width="30%">
-            </td>
-        </tr>
-    </table>
-        
+                </div>
+
+                <div class="col-sm-6">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                          <div class="navbar-nav">
+                            <a class="nav-item nav-link active" href="index.html">Home</a>
+                            <a class="nav-item nav-link" href="About.html">About</a>
+                            <a class="nav-item nav-link" href="Family.html">Family</a>
+                            <a class="nav-item nav-link" href="Contact.html">Contact</a>
+                            <a class="nav-item nav-link" href="Favorite.html">Favorite</a>
+                          </div>
+                    </nav>
+                </div>                
+                            
+                <div class="col-sm-3">
+
+                </div>
+            </div><br>
+            <h1>I'm Mebea Nibret</h1>
+            <br>
+            <div class="row">
+                <div class="col-sm-6">
+                   Hello everyone, I'm Mebea Nibret AAiT second year Software Engineering student.             
+                </div>
+
+                <div class="col-sm-6">
+                    <img src="./images/Mebea.jpg" alt="It is me." width="50%">
+                </div>  
+            </div>
+
+            <h4>
+                If you to mail me here is a form 
+            </h4>
+
+            </p>
+            <form action="mailto:se.mebea.nibret@gmail.com" enctype="UTF-8" method="POST">
+                <div class="form-group">
+                    <label for="messageta">Your Message</label><br>
+                    <textarea name="message" id="messageta" cols="30" rows="10" required></textarea><br>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" size="50" required title="Email please.">
+                    <input type="Submit" class="btn btn-primary" value="          Mail         ">
+                </div>
+            </form>
+            <footer>&copy Mebea Nibret,2020 | Thank you for everything.</footer>
+        </div>
+
+        <div class="col-sm-3">
+
+        </div>
+    </div>
+
 </body>
 </html>
